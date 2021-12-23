@@ -233,7 +233,15 @@
     width: 8px;
     height: 30px;
     margin-right: 10px;
-    background-color: red;
+}
+.qualidades:nth-of-type(3n+1) h2::before{
+    background: #ae81ff;
+}
+.qualidades:nth-of-type(3n+2) h2::before{
+    background: #f9265e;
+}
+.qualidades:nth-of-type(3n+3) h2::before{
+    background: #66d9eb;
 }
 .qualidades p{
     font-size: 1.25em;
