@@ -1,0 +1,90 @@
+.info-bg{
+    background-color: blue;
+    color: white;
+}
+.info{
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+.info p{
+    margin: 5px 10px
+}
+
+.menu-bg{
+    background-color: rgb(21, 144, 245);
+    color: white;
+}
+.menu-info{
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px 0;
+    
+}
+.logo{
+    margin: 0 10px;
+    font-size: 2em;
+}
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-nav li{
+    display: block;
+    padding: 10px;
+}
+.menu-nav li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;   
+}
+.introduction{
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 60px 10px;
+}
+.introduction h1 {
+    margin: 0 10px;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1;
+}
+.sobre{
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0px 10px;
+}
+.title-sobre{
+    font-size: 3em;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+.description{
+    color: #c4c4c4;
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
