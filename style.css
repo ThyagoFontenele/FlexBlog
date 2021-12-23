@@ -64,6 +64,7 @@
     font-size: 3em;
     line-height: 1;
     font-weight: 600;
+    letter-spacing: 0.7px;
 }
 .sobre{
     border-top: 2px solid blue;
@@ -82,6 +83,7 @@
     font-size: 3em;
     margin-bottom: .5em;
     font-weight: bold;
+    letter-spacing: 0.7px;
 }
 .description{
     color: #7c7c7c;
